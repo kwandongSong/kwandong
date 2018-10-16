@@ -1,6 +1,6 @@
 
 CFLAGS = -Wall
-OBJS = func1.o main.o
+OBJS = func1.o func2.o main.o
 TARGET = main
 
 $(TARGET): $(OBJS)
