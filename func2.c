@@ -4,4 +4,5 @@
 void func2()
 {
   printf("world \n");
+  printf("ya 2 sae ki ya\n");
 }
