@@ -1,6 +1,7 @@
 #include"func1.h"
 #include"func2.h"
 #include<stdio.h>
+
 void preprocess()
 {
   printf("do some preprocess! \n");
@@ -29,8 +30,12 @@ void turbo_off()
 int main(void)
 {
   preprocess();
-  postprocess();
+  turbo_on();
+
   func1();
   func2();
+
+  turno_off();
+  postprocess();
   return 0;
 }
