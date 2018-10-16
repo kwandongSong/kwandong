@@ -1,5 +1,5 @@
-#include "func2.h"
 #include <stdio.h>
+#include "func2.h"
 
 void func2()
 {
